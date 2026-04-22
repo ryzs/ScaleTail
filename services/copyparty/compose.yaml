@@ -67,6 +67,9 @@ services:
     network_mode: service:tailscale # Sidecar configuration to route ${SERVICE} through Tailscale
     container_name: app-${SERVICE} # Name for local container management
     user: "1000:1000"
+    configs:
+      - source: copyparty-config
+        target: /cfg/copyparty.conf
     volumes:
       - ./config:/cfg:z
       - /path/to/your/fileshare/top/folder:/w:z # Make sure to adjust to the location you want
@@ -77,7 +80,6 @@ services:
     # enabling mimalloc by replacing "NOPE" with "2" will make some stuff twice as fast, but everything will use twice as much ram:
     environment:
       LD_PRELOAD: /usr/lib/libmimalloc-secure.so.NOPE
-
     stop_grace_period: 15s  # thumbnailer is allowed to continue finishing up for 10s after the shutdown signal
     healthcheck:
       # hide it from logs with "/._" so it matches the default --lf-url filter 
