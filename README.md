@@ -290,26 +290,26 @@ A huge thank you to all our contributors! ScaleTail wouldn’t be what it is tod
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/ryzs">
+                    <img src="https://avatars.githubusercontent.com/u/11757602?v=4" width="100;" alt="ryzs"/>
+                    <br />
+                    <sub><b>ryzs</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
                 <a href="https://github.com/theryukverse">
                     <img src="https://avatars.githubusercontent.com/u/22323518?v=4" width="100;" alt="theryukverse"/>
                     <br />
                     <sub><b>theryukverse</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/KhaaL">
                     <img src="https://avatars.githubusercontent.com/u/692524?v=4" width="100;" alt="KhaaL"/>
                     <br />
                     <sub><b>KhaaL</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/ryzs">
-                    <img src="https://avatars.githubusercontent.com/u/11757602?v=4" width="100;" alt="ryzs"/>
-                    <br />
-                    <sub><b>ryzs</b></sub>
                 </a>
             </td>
             <td align="center">
